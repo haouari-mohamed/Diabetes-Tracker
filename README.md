@@ -10,9 +10,9 @@ Delete Reading: Users can delete an existing glucose reading if necessary.
 ### Data Visualization
 Charts: Visualize glucose trends over time using Chart.js to help users understand their glucose levels better.
 ### Technologies Used
-Web Framework: Spring MVC
-Persistence Management: Spring Data JPA (Hibernate)
-Database: MySQL
-Frontend: HTML, CSS, JavaScript
-Application Server: Apache Tomcat
-Development Tools: Eclipse, IntelliJ IDEA
+- Web Framework: Spring MVC.
+- Persistence Management: Spring Data JPA (Hibernate).
+- Database: MySQL.
+- Frontend: HTML, CSS, JavaScript.
+- Application Server: Apache Tomcat.
+- Development Tools: Eclipse, IntelliJ IDEA.
