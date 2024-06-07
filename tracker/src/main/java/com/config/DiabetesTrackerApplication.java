@@ -5,17 +5,23 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.DispatcherServlet;
 
 import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
+
 public class DiabetesTrackerApplication implements WebApplicationInitializer {
 
     @Override
-    public void onStartup(ServletContext servletContext) {
+    public void onStartup(ServletContext servletContext) throws ServletException {
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
-        context.register(WebConfig.class, PersistenceJPAConfig.class);
+        context.setConfigLocation("com.config");
 
-        ServletRegistration.Dynamic dispatcher = servletContext.addServlet(
-                "dispatcher", new DispatcherServlet(context));
-        dispatcher.setLoadOnStartup(1);
-        dispatcher.addMapping("/");
+        DispatcherServlet dispatcherServlet = new DispatcherServlet(context);
+        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", dispatcherServlet);
+        if (dispatcher != null) {
+            dispatcher.setLoadOnStartup(1);
+            dispatcher.addMapping("/");
+        } else {
+            throw new ServletException("Failed to register dispatcher servlet");
+        }
     }
 }

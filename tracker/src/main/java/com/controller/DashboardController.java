@@ -1,23 +1,22 @@
 package com.controller;
 
 import com.model.User;
-
 import com.services.ChartService;
 import com.services.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class DashboardController {
-    @Autowired
-    private  UserService userService;
 
-    @Autowired
-    private ChartService chartService;
+    private final UserService userService;
+    private final ChartService chartService;
 
-
+    public DashboardController(UserService userService, ChartService chartService) {
+        this.userService = userService;
+        this.chartService = chartService;
+    }
 
     @GetMapping("/dashboard")
     public String showDashboard(Model model) {
