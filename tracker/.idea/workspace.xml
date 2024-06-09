@@ -9,23 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf3b833-43fd-4bdd-8a83-1b3f23b4b161" name="Changes" comment="I have Prepared the project configuration with the necessary dependencies">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/DiabetesTrackerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/PersistenceJPAConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/GlucoseReadingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/GlucoseReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/repositry/GlucoseReadingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/repositry/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/services/ChartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/services/GlucoseReadingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/services/UserService.java" afterDir="false" />
+    <list default="true" id="dcf3b833-43fd-4bdd-8a83-1b3f23b4b161" name="Changes" comment="update in the config and controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/DiabeteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +21,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -61,29 +49,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 9.0.86.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/med/Diabetes-Tracker&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 9.0.86.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/Diabetes-Tracker/tracker",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Diabetes-Tracker\tracker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Diabetes-Tracker\tracker\src\main\resources\static\css\css" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.86" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.86" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -184,6 +182,12 @@
       <workItem from="1717498643257" duration="5297000" />
       <workItem from="1717575868663" duration="8645000" />
       <workItem from="1717593810995" duration="6535000" />
+      <workItem from="1717662860654" duration="505000" />
+      <workItem from="1717663725438" duration="10493000" />
+      <workItem from="1717691318166" duration="11398000" />
+      <workItem from="1717923466569" duration="595000" />
+      <workItem from="1717928069900" duration="1126000" />
+      <workItem from="1717929268998" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="I have Prepared the project configuration with the necessary dependencies">
       <option name="closed" value="true" />
@@ -201,7 +205,71 @@
       <option name="project" value="LOCAL" />
       <updated>1717515456183</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="realise the config">
+      <option name="closed" value="true" />
+      <created>1717662979033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717662979033</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add the dependencies">
+      <option name="closed" value="true" />
+      <created>1717663022712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717663022712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="realise the controller">
+      <option name="closed" value="true" />
+      <created>1717663051470</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717663051470</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Glucose Reading controller">
+      <option name="closed" value="true" />
+      <created>1717663095780</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717663095780</updated>
+    </task>
+    <task id="LOCAL-00007" summary="realise the services user&amp;Gluco Reading">
+      <option name="closed" value="true" />
+      <created>1717663152427</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717663152427</updated>
+    </task>
+    <task id="LOCAL-00008" summary="realise the model user and gluco reading">
+      <option name="closed" value="true" />
+      <created>1717663186603</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717663186603</updated>
+    </task>
+    <task id="LOCAL-00009" summary="realise the repository interface">
+      <option name="closed" value="true" />
+      <created>1717663218005</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717663218006</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update in the config and controller">
+      <option name="closed" value="true" />
+      <created>1717765507435</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717765507435</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +277,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I have Prepared the project configuration with the necessary dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have Prepared the project configuration with the necessary dependencies" />
+    <MESSAGE value="realise the config" />
+    <MESSAGE value="add the dependencies" />
+    <MESSAGE value="realise the controller" />
+    <MESSAGE value="Glucose Reading controller" />
+    <MESSAGE value="realise the services user&amp;Gluco Reading" />
+    <MESSAGE value="realise the model user and gluco reading" />
+    <MESSAGE value="realise the repository interface" />
+    <MESSAGE value="update in the config and controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="update in the config and controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
