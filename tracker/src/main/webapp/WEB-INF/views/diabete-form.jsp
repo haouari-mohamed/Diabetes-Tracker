@@ -71,14 +71,17 @@
     </style>
 </head>
 <body>
-<h2>Diabetes Form</h2>
+
+
 <form action="save" method="post">
+    <h2>Diabetes Form</h2>
+    <br>
     <div>
         <label for="date">Date:</label>
         <input type="date" id="date" name="date">
     </div>
     <div>
-        <label for="date">Time:</label>
+        <label for="time">Time:</label>
         <input type="time" id="time" name="time">
     </div>
     <div>

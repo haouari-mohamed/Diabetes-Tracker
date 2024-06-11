@@ -18,6 +18,11 @@ public class DiabeteController {
     private DiabeteServiceImpl diabeteService;
 
 
+    @GetMapping("/index")
+    public String showIndexPage(){
+        return "index";
+    }
+
     @GetMapping("/list")
     public String listDiabetes(Model model) {
         diabeteService.getDiabetes().forEach(System.out::println);
@@ -33,7 +38,7 @@ public class DiabeteController {
         return "diabete-form";
     }
 
-//@RequestMapping(path ="/", method =RequestMethod.GET)
+
     @PostMapping("/save")
     public String saveDiabete(@ModelAttribute("diabete") glycemie theDiabete) {
         diabeteService.saveDiabete(theDiabete);

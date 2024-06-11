@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="tracker:war exploded" />
+      <artifact name="Diabetes_Tracker:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf3b833-43fd-4bdd-8a83-1b3f23b4b161" name="Changes" comment="update in the config and controller">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="18135a7a-8bfd-4d97-825a-f08a84e1ee01" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,17 +18,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
         <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -41,59 +33,65 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2hPbQ2NDz8RouofYq9PbNls5qZt" />
+  <component name="ProjectId" id="2hUxSaMLbnM4sHvjssZgqbO0PcQ" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 9.0.86.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/Diabetes-Tracker/tracker",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.Diabetes_Tracker [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Diabetes_Tracker [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Diabetes_Tracker [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.86.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat.executor&quot;: &quot;Run&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/diabete-tracker&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\Diabetes-Tracker\tracker" />
+      <recent name="C:\Users\user\Desktop\Spring\db_tracker\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\user\Desktop\Spring\db_tracker\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\Diabetes-Tracker\tracker\src\main\resources\static\css\css" />
+      <recent name="C:\Users\user\Desktop\Spring\db_tracker\src\main\webapp\WEB-INF\style" />
+      <recent name="C:\Users\user\Desktop\Spring\db_tracker\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\user\Desktop\Spring\db_tracker\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.86" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.86" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="tracker:war exploded">
+        <artifact name="Diabetes_Tracker:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/tracker_war_exploded" />
+            <option name="CONTEXT_PATH" value="/Diabetes_Tracker_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="469ca535-29d4-4626-a8ec-70684cc9acf8" />
+        <option name="BASE_DIRECTORY_NAME" value="2e0c7ddc-d40d-41cb-9de5-92a40641c57f" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -101,7 +99,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52805" />
+        <option name="DEBUG_PORT" value="59256" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -166,7 +164,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="tracker:war exploded" />
+          <artifact name="Diabetes_Tracker:war exploded" />
         </option>
       </method>
     </configuration>
@@ -174,133 +172,24 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dcf3b833-43fd-4bdd-8a83-1b3f23b4b161" name="Changes" comment="" />
-      <created>1717498642210</created>
+      <changelist id="18135a7a-8bfd-4d97-825a-f08a84e1ee01" name="Changes" comment="" />
+      <created>1717662457290</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1717498642210</updated>
-      <workItem from="1717498643257" duration="5297000" />
-      <workItem from="1717575868663" duration="8645000" />
-      <workItem from="1717593810995" duration="6535000" />
-      <workItem from="1717662860654" duration="505000" />
-      <workItem from="1717663725438" duration="10493000" />
-      <workItem from="1717691318166" duration="11398000" />
-      <workItem from="1717923466569" duration="595000" />
-      <workItem from="1717928069900" duration="1126000" />
-      <workItem from="1717929268998" duration="2441000" />
+      <updated>1717662457290</updated>
+      <workItem from="1717662458451" duration="21065000" />
+      <workItem from="1717746929213" duration="10388000" />
+      <workItem from="1717766852088" duration="2652000" />
+      <workItem from="1717916943304" duration="3004000" />
+      <workItem from="1717926273093" duration="549000" />
+      <workItem from="1717928064256" duration="1132000" />
+      <workItem from="1717929257525" duration="6921000" />
+      <workItem from="1718007285546" duration="293000" />
+      <workItem from="1718008155331" duration="8066000" />
     </task>
-    <task id="LOCAL-00001" summary="I have Prepared the project configuration with the necessary dependencies">
-      <option name="closed" value="true" />
-      <created>1717515412085</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1717515412085</updated>
-    </task>
-    <task id="LOCAL-00002" summary="I have Prepared the project configuration with the necessary dependencies">
-      <option name="closed" value="true" />
-      <created>1717515456183</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1717515456183</updated>
-    </task>
-    <task id="LOCAL-00003" summary="realise the config">
-      <option name="closed" value="true" />
-      <created>1717662979033</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1717662979033</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add the dependencies">
-      <option name="closed" value="true" />
-      <created>1717663022712</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1717663022712</updated>
-    </task>
-    <task id="LOCAL-00005" summary="realise the controller">
-      <option name="closed" value="true" />
-      <created>1717663051470</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1717663051470</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Glucose Reading controller">
-      <option name="closed" value="true" />
-      <created>1717663095780</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1717663095780</updated>
-    </task>
-    <task id="LOCAL-00007" summary="realise the services user&amp;Gluco Reading">
-      <option name="closed" value="true" />
-      <created>1717663152427</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1717663152427</updated>
-    </task>
-    <task id="LOCAL-00008" summary="realise the model user and gluco reading">
-      <option name="closed" value="true" />
-      <created>1717663186603</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1717663186603</updated>
-    </task>
-    <task id="LOCAL-00009" summary="realise the repository interface">
-      <option name="closed" value="true" />
-      <created>1717663218005</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1717663218006</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update in the config and controller">
-      <option name="closed" value="true" />
-      <created>1717765507435</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1717765507435</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="I have Prepared the project configuration with the necessary dependencies" />
-    <MESSAGE value="realise the config" />
-    <MESSAGE value="add the dependencies" />
-    <MESSAGE value="realise the controller" />
-    <MESSAGE value="Glucose Reading controller" />
-    <MESSAGE value="realise the services user&amp;Gluco Reading" />
-    <MESSAGE value="realise the model user and gluco reading" />
-    <MESSAGE value="realise the repository interface" />
-    <MESSAGE value="update in the config and controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="update in the config and controller" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/model/User.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/model/User.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

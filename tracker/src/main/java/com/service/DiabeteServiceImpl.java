@@ -3,6 +3,7 @@ package com.service;
 import com.entity.glycemie;
 import com.repository.DiabeteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
@@ -14,8 +15,12 @@ import java.util.Optional;
 @Transactional
 public class DiabeteServiceImpl {
 
-    @Autowired
-    private DiabeteRepository repo;
+
+    private final DiabeteRepository repo;
+
+    public DiabeteServiceImpl(DiabeteRepository repo) {
+        this.repo = repo;
+    }
 
 
     public List<glycemie> getDiabetes() {
@@ -26,18 +31,24 @@ public class DiabeteServiceImpl {
         glycemie diabete = repo.save(theDiabete);
     }
 
-    public glycemie getDiabete(int id) {
-        Optional<glycemie> result = repo.findById(id);
-        glycemie theDiabete = null;
-        if (result.isPresent()) {
-            theDiabete = result.get();
-        } else {
-            throw new RuntimeException("Did not find diabete id - " + id);
-        }
-        return theDiabete;
-    }
+//    public glycemie getDiabete(int id) {
+//        Optional<glycemie> result = repo.findById(id);
+//        glycemie theDiabete = null;
+//        if (result.isPresent()) {
+//            theDiabete = result.get();
+//        } else {
+//            throw new RuntimeException("Did not find diabete id - " + id);
+//        }
+//        return theDiabete;
+//    }
 
     public void deleteDiabete(int id) {
         repo.deleteById(id);
+    }
+
+    public  void  search (){
+
+
+
     }
 }
